@@ -9,13 +9,11 @@ var scanhoehe = 1;
 
 function preload() {
   img = loadImage("0213.jpg");
-  myFont = loadFont('FiraCode-Regular.ttf');
 }
 
 function setup() {
   createCanvas(800, 1200);
   image(img, 0, 0);
-  textFont(myFont);
   textSize(14);
   frameRate(30);
 }
